@@ -5,6 +5,15 @@ class Pupil:
         self.year = year
         self.room = room
         self.hobby = hobby
+ 
+    def save_student(self):
+        file_path = "student.txt"
+        with open(file_path, "a", encoding="utf-8") as file:
+            file.write(self.full_name())
+            file.write(self.get_age())
+            file.write(self.class_room())
+            file.write(self.join_subject())
+            file.write("\n")
 
     def full_name(self):
         return f"O'quvchi: {self.fam} {self.name}\n"

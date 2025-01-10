@@ -2,3 +2,7 @@ O'quvchi: G'aybullayev MuhammadYusuf
 Tug'ilgan yili va yoshi: 2008, 17 yosh
 Sinf: 10-B 2024
 Qiziqadigan fani: Python
+O'quvchi: G'aybullayev MuhammadYusuf
+Tug'ilgan yili va yoshi: 2008, 17 yosh
+Sinf: 10-B 2024
+Qiziqadigan fani: Python
