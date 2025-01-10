@@ -7,7 +7,7 @@ class Pupil:
         self.hobby = hobby
  
     def save_student(self):
-        file_path = "student.txt"
+        file_path = "o'quvchi.txt"
         with open(file_path, "a", encoding="utf-8") as file:
             file.write(self.full_name())
             file.write(self.get_age())
@@ -34,11 +34,4 @@ print(student.get_age())
 print(student.ClassRoom())
 print(student.join_subject())
 
-file_path = "student.txt"
-with open(file_path, "a") as file:
-    file.write(student.full_name())
-    file.write(student.get_age())
-    file.write(student.ClassRoom())
-    file.write(student.join_subject())
-    # file.write("-" * 30 + "\n")  # Ajratish chizig'i
 
